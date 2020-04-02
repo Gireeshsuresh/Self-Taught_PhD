@@ -29,17 +29,17 @@
 ---
 ## Table of Contents
 
-1. Algorithms
-2. Coding Practice
-3. Computer Vision
-4. Control Systems
-5. Deep learning
-6. Machine Learning
-7. Mathematics
-8. Motion Planning
-9. Optimization
-10. Parrllel Computing
-11. Programming Languages
+- Algorithms
+- Coding Practice
+- Computer Vision
+- Control Systems
+- Deep learning
+- Machine Learning
+- Mathematics
+- Motion Planning
+- Optimization
+- Parrllel Computing
+- Programming Languages
 
 ---
 ## For any Questions (or) Comments, Please reach out to :
