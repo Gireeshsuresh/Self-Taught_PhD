@@ -28,7 +28,7 @@
 
 ---
 ## Table of Contents
-
+- [Why PhD?](#why-am-i-doing-a-phd-that-is-self-taught-)
 - Algorithms
 - Coding Practice
 - Computer Vision
