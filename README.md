@@ -1,5 +1,5 @@
 ## Self Taught PhD - A Journey to quench my thirst of Knowledge | Gireesh Suresh
----
+
 ### Why am I doing a **PhD**, that is *Self-taught* ?
  
  In the words of `Albert Einstein` :
@@ -26,12 +26,11 @@
 </details>
 
 ---
-### ABSTRACT
+## Table of Contents
 
-Automatic Parking is an autonomous car maneuvering system that moves a vehicle from a traffic lane into a parking spot to perform parallel parking. The automatic parking system aims to enhance the comfort and safety of driving in constrained environments where much attention and experience is required to steer the car. The parking maneuver is achieved by means of coordinated control of the steering angle and speed which considers the actual situation i.e., the free spaces and the obstacle spaces in the environment to ensure collision-free motion within the available space. The path shape required for a parking maneuver is evaluated from the environmental model, generating a fifth-order polynomial, the corresponding control commands are selected and parameterized to provide motion within the available space. In real-time application, the commands are executed by the car servo-systems which drive the vehicle into the parking place.
 
 ---
-### For any Questions or Comments, Please reach out to ....
+## For any Questions (or) Comments, Please reach out to :
 
 - Gireesh Suresh   : gireesh@umd.edu
 
