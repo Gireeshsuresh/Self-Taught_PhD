@@ -33,7 +33,7 @@
 - Coding Practice
 - Computer Vision
 - Control Systems
-- Deep learning
+- Deep Learning
 - Machine Learning
 - Mathematics
 - Motion Planning
