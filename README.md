@@ -41,8 +41,6 @@
 10. Parrllel Computing
 11. Programming Languages
 
-
-
 ---
 ## For any Questions (or) Comments, Please reach out to :
 
