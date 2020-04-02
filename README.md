@@ -13,7 +13,7 @@
 > 
 > My drive to do a PhD (rather Self Taught PhD) is mainly to expand my technical knowledge base where in I could study things I didnt know [ (or) rather needed to brush up certian things...] and
 > to  further hone my skillset. I believe in Applied Research more so than theoritical approach, primarily because of the personal satisfaction you get on seeing things work in real than on paper.
-> Unlike some people, my intentions are to attain the proper etiquette associated wuth the usage of the subject and the professional ethics of the scholarly society rather than having a "Dr." as
+> Unlike some people, my intentions are to attain the proper etiquette associated wuth the usage of the subject and the professional ethics of the scholarly society rather than having a **"Dr."** as
 > title and a certificate to back that.[That's just my thought]. Hence the Self-Taught PhD.
 >
 >    `Afterall who else can be a better person to judge/please,  if not your own self ??`
