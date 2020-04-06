@@ -33,7 +33,7 @@
 - [Coding Practice](https://github.com/Gireeshsuresh/Self-Taught_PhD/tree/master/CodingPractice)
 - [Computer Vision](https://github.com/Gireeshsuresh/Self-Taught_PhD/tree/master/ComputerVision)
 - Control Systems
-- Deep Learning
+- [Deep Learning](https://github.com/Gireeshsuresh/Self-Taught_PhD/tree/master/DeepLearning)
 - Machine Learning
 - Mathematics
 - Motion Planning
