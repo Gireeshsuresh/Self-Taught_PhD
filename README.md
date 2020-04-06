@@ -29,17 +29,17 @@
 ---
 ## Table of Contents
 - [Why PhD?](#why-am-i-doing-a-phd-that-is-self-taught-)
-- Algorithms
-- Coding Practice
-- Computer Vision
+- [Algorithms](https://github.com/Gireeshsuresh/Self-Taught_PhD/tree/master/Algorithms)
+- [Coding Practice](https://github.com/Gireeshsuresh/Self-Taught_PhD/tree/master/CodingPractice)
+- [Computer Vision](https://github.com/Gireeshsuresh/Self-Taught_PhD/tree/master/ComputerVision)
 - Control Systems
 - Deep Learning
 - Machine Learning
 - Mathematics
 - Motion Planning
 - Optimization
-- Parrllel Computing
-- Programming Languages
+- [Parallel Computing](https://github.com/Gireeshsuresh/Self-Taught_PhD/tree/master/ParallelComputing)
+- [Programming Languages](https://github.com/Gireeshsuresh/Self-Taught_PhD/tree/master/ProgrammingLanguages)
 
 ---
 ## For any Questions (or) Comments, Please reach out to :
