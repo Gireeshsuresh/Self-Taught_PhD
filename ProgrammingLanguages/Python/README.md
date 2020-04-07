@@ -4,4 +4,4 @@
 
 ## References :
 1. Python - 2 [[Official Docs]](https://docs.python.org/2/contents.html)
-2. Python - 3 [[Official Docs]](https://docs.python.org/3/contents.html)2. 
+2. Python - 3 [[Official Docs]](https://docs.python.org/3/contents.html)
