@@ -21,7 +21,7 @@ if spam_amount > 0:
 viking_song = "Spam " * spam_amount
 print(viking_song)
 
-type(19.95) # float
+type(19.95)  # float
 
 print(min(1, 2, 3))
 print(max(1, 2, 3))
@@ -31,3 +31,15 @@ print(int(3.33))
 # They can even be called on strings!
 print(int('807') + 1)
 
+print(5//2)     # Returns the Quotient
+
+print(5 % 2)    # Returns the Remainder
+
+
+def least_difference(a,b,c):
+    return min(abs(a - b), abs(b-c), abs(a - c))
+
+print("Least Difference = %.3f"  %least_difference(1,10,100))       # Python - 2
+print("Least Difference = {}"  .format(least_difference(1,10,100))) # Python - 2
+
+print("Least Difference = "least_difference(1,10,100))             # Python - 3
