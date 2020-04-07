@@ -36,10 +36,26 @@ print(5//2)     # Returns the Quotient
 print(5 % 2)    # Returns the Remainder
 
 
-def least_difference(a,b,c):
+def least_difference(a, b, c):
+    """Return the smallest difference between any two numbers       # Docstrings
+    among a, b and c.
+
+    >>> least_difference(1, 5, -5)
+    4
+    """
     return min(abs(a - b), abs(b-c), abs(a - c))
 
 print("Least Difference = %.3f"  %least_difference(1,10,100))       # Python - 2
 print("Least Difference = {}"  .format(least_difference(1,10,100))) # Python - 2
 
-print("Least Difference = "least_difference(1,10,100))             # Python - 3
+print("Least Difference = ", least_difference(1,10,100))            # Python - 3
+
+# help(least_difference)
+# least_difference(a, b, c)
+#     Return the smallest difference between any two numbers
+#     among a, b and c.
+    
+#     >>> least_difference(1, 5, -5)
+#     4
+
+print(1, 2, 3, sep=' < ')                                            # Python - 3
