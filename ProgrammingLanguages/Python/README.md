@@ -1,5 +1,5 @@
 ## Python Tutorials / Courses:
-1. Kaggle [[Beginner Level]](https://www.kaggle.com/learn/python)
+1. Kaggle [[Beginner Level]](https://www.kaggle.com/learn/python) (NOTE: This is Python-3 based tutorials)
 
 
 ## References :
