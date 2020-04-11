@@ -13,10 +13,14 @@ public:
     ~QuickFind();
     bool connected(int p, int q);
     void unionPQ(int p, int q);
+    void displayOutput();
 };
 
 QuickFind::QuickFind(int N)
 {
+
+    id.resize(N); /// Resize the Vector to User Input size.
+
     for (int i = 0; i < N; ++i)
     {
         id[i] = i;
@@ -37,7 +41,9 @@ QuickFind::~QuickFind()
  */
 bool QuickFind::connected(int p, int q)
 {
-    return (id[p] == id[q]);
+    bool out = (id[p] == id[q]);
+    cout << "Is ( " << p << " , " << q << " ) Connected ?? : " << out << "\n";
+    return out;
 }
 
 /**
@@ -57,14 +63,46 @@ void QuickFind::unionPQ(int p, int q)
     {
         if (id[i] == pid)
         {
-            id[i] == qid;
+            id[i] = qid;
         }
     }
 }
 
+void QuickFind::displayOutput()
+{
+    cout << "Output value of Array = | ";
+    for (int i : id)
+    {
+        cout << i << " | ";
+    }
+    cout << "\n";
+}
+
 int main(int argc, char const *argv[])
 {
-    vector<int> userInput = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+    int N = 0; /// Take the User Input for the size of the array
+    cout << "\nEnter the Size of the Array = ";
+    cin >> N;
+    cout << "\n";
+
+    QuickFind qfObject(N);
+
+    qfObject.unionPQ(4, 3);
+    qfObject.unionPQ(3, 8);
+    qfObject.unionPQ(6, 5);
+    qfObject.unionPQ(9, 4);
+    qfObject.unionPQ(2, 1);
+    qfObject.connected(8, 9);
+    qfObject.connected(5, 0);
+    qfObject.unionPQ(5, 0);
+    qfObject.unionPQ(7, 2);
+    qfObject.unionPQ(6, 1);
+
+    cout << "\n";
+
+    qfObject.displayOutput();
+    
+    cout << "\n";
 
     return 0;
 }
