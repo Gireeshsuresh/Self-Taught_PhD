@@ -52,12 +52,8 @@ void printOutput(vector<int> &nums)
 int main(int argc, char const *argv[])
 {
     vector<int> userInput = {0, 1, 0, 3, 12};
-
     Solution answer;
-
     answer.moveZeroes(userInput);
-
     printOutput(userInput);
-
     return 0;
 }
