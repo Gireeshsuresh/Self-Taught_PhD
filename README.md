@@ -45,7 +45,7 @@
 
 ## Big-O CheatSheet
 
-![Big-O CheatSheet - from https://www.bigocheatsheet.com/]()
+![Big-O CheatSheet - from https://www.bigocheatsheet.com/](https://raw.githubusercontent.com/Gireeshsuresh/Self-Taught_PhD/master/Algorithms/big-o-cheat-sheet-poster.png)
 
 
 
