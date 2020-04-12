@@ -8,6 +8,7 @@
 <details>
 <summary>Thought Process:</summary>
 
+>
 > Doctor of Philosophy(PhD), as per `Wikipedia` “ are usually required to produce original research that expands the boundaries of knowledge, normally in the form of a thesis or dissertation, and
 > defend their work against experts in the field ”. 
 > 
