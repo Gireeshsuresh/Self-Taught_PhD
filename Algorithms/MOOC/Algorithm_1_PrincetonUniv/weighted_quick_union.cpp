@@ -144,7 +144,8 @@ int main(int argc, char const *argv[])
     qfObject.unionPQ(5, 0);
     qfObject.unionPQ(7, 2);
     qfObject.unionPQ(6, 1);
-    qfObject.unionPQ(7, 3); qfObject.displayLenOutput();
+    qfObject.unionPQ(7, 3); 
+    qfObject.displayLenOutput();
 
     cout << "\n";
 
