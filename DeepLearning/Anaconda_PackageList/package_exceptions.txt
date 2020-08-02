@@ -1,0 +1,4 @@
+Some of the packages when exported are not getting installed and this text file lists those packages & command to install them.
+
+conda install -c menpo opencv3 
+(This command intalls the OpenCV3 package for your Anaconda Environment.)
