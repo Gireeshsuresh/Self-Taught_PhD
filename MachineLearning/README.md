@@ -1,7 +1,9 @@
 
-There are so many algorithms that it can feel overwhelming when algorithm names are thrown around and you are expected to just know what they are and where they fit.
+# Machine Learning
 
-To overcome this, I would like to categorize the algorithms in two ways as follows:
+There are so many algorithms in Machine Learning that it can feel overwhelming when algorithm names are thrown around and you are expected to just know what they are and where they fit.
+
+To overcome this, I would like to categorize the algorithms in the following two ways for easier understanding :
 * Algorithms Grouped by Learning Style.
 * Algorithms Grouped by Similarity.
 
