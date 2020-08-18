@@ -146,7 +146,7 @@ The most popular Bayesian algorithms are:
 * Naive Bayes
 * Gaussian Naive Bayes
 * Multinomial Naive Bayes
-* Averaged One-Dependence Estimators (AODE)
+* Averaged One-Dependence Estimators ([AODE](https://en.wikipedia.org/wiki/Averaged_one-dependence_estimators))
 * Bayesian Belief Network (BBN)
 * Bayesian Network (BN)
 
