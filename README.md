@@ -6,7 +6,7 @@
 > “Any fool can know. The point is to understand.”
 					
 <details>
-<summary>Thought Process:</summary>
+<summary><b>Thought Process:</b></summary>
 
 >
 >
