@@ -127,10 +127,10 @@ The most popular decision tree algorithms are:
 
 * Classification and Regression Tree (CART)
 * Iterative Dichotomiser 3 (ID3)
-* C4.5 and C5.0 (different versions of a powerful approach)
+* C4.5 and C5.0 (different versions of a powerful approach) [Link](https://towardsdatascience.com/ml-algorithms-one-sd-%CF%83-decision-trees-algorithms-746e866ac3f)
 * Chi-squared Automatic Interaction Detection (CHAID)
 * Decision Stump
-* M5
+* [M5](https://towardsdatascience.com/ml-algorithms-one-sd-%CF%83-decision-trees-algorithms-746e866ac3f) 
 * Conditional Decision Trees
 
 <p align="center">
@@ -179,8 +179,8 @@ These rules can discover important and commercially useful associations in large
 
 The most popular association rule learning algorithms are:
 
-* Apriori algorithm
-* Eclat algorithm
+* [Apriori algorithm](https://www.geeksforgeeks.org/apriori-algorithm/)
+* [Eclat algorithm](https://www.geeksforgeeks.org/ml-eclat-algorithm/)
 
 <p align="center">
   <img src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2013/11/Assoication-Rule-Learning-Algorithms.png" />
@@ -200,8 +200,8 @@ The most popular artificial neural network algorithms are:
 * Multilayer Perceptrons (MLP)
 * Back-Propagation
 * Stochastic Gradient Descent
-* Hopfield Network
-* Radial Basis Function Network (RBFN)
+* [Hopfield Network](https://en.wikipedia.org/wiki/Hopfield_network)
+* Radial Basis Function Network ([RBFN](https://mccormickml.com/2013/08/15/radial-basis-function-network-rbfn-tutorial/))
 
 <p align="center">
   <img src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2013/11/Artificial-Neural-Network-Algorithms.png" />
@@ -219,8 +219,8 @@ The most popular deep learning algorithms are:
 * Recurrent Neural Networks (RNNs)
 * Long Short-Term Memory Networks (LSTMs)
 * Stacked Auto-Encoders
-* Deep Boltzmann Machine (DBM)
-* Deep Belief Networks (DBN)
+* Deep Boltzmann Machine ([DBM](https://medium.com/datadriveninvestor/deep-learning-deep-boltzmann-machine-dbm-e3253bb95d0f))
+* Deep Belief Networks ([DBN](https://medium.com/@icecreamlabs/deep-belief-networks-all-you-need-to-know-68aa9a71cc53))
 
 <p align="center">
   <img src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2013/11/Deep-Learning-Algorithms.png" />
@@ -235,9 +235,9 @@ This can be useful to visualize dimensional data or to simplify data which can t
 * Principal Component Analysis (PCA)
 * Principal Component Regression (PCR)
 * Partial Least Squares Regression (PLSR)
-* Sammon Mapping
+* [Sammon Mapping](https://en.wikipedia.org/wiki/Sammon_mapping)
 * Multidimensional Scaling (MDS)
-* Projection Pursuit
+* [Projection Pursuit](https://en.wikipedia.org/wiki/Projection_pursuit)
 * Linear Discriminant Analysis (LDA)
 * Mixture Discriminant Analysis (MDA)
 * Quadratic Discriminant Analysis (QDA)
