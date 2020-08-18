@@ -37,7 +37,7 @@
 - [Computer Vision](https://github.com/Gireeshsuresh/Self-Taught_PhD/tree/master/ComputerVision)
 - Control Systems
 - [Deep Learning](https://github.com/Gireeshsuresh/Self-Taught_PhD/tree/master/DeepLearning)
-- Machine Learning
+- [Machine Learning](https://github.com/Gireeshsuresh/Self-Taught_PhD/tree/master/MachineLearning)
 - Mathematics
 - Motion Planning
 - Optimization
