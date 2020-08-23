@@ -16,4 +16,4 @@ This mission is fulfilled with four pillars:
 ---
 
 
-Interested ? Check this out <b><u>Link</b></u> : [f1tenth.org](https://f1tenth.org/)
+Interested ? Check this <b><u>Link</b></u> : [f1tenth.org](https://f1tenth.org/)
