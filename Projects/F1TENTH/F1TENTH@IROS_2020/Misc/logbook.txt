@@ -1,4 +1,6 @@
 Aug 23, 2020 : 
 1) Registered the Team. Team Name : Ninja's in Lungis. Members: Gireesh Suresh, Akshay Rajaraman Subramanian
 2) Made the Initial Push to Github: https://github.com/Gireeshsuresh/Self-Taught_PhD/tree/master/Projects/F1TENTH
-3) 
+3) After the catkin_make step, we have to do source devel/setup.bash.
+4) Also had to Install Ackermann Msgs manually.(sudo apt-get install ros-melodic-ackermann-msgs)
+5) Run the src/f1tenth_gym_ros/docker.sh and then do (roslaunch f1tenth_gym_ros agent_template.launch) to view the car and map.
