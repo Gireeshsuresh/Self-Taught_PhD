@@ -1,0 +1,5 @@
+Getting Started :
+1) Competition Code Page: https://github.com/f1tenth/f1tenth_gym_ros
+2) ROS Melodic : http://wiki.ros.org/melodic/Installation/Ubuntu
+3) Instal Docker :  (a) https://docs.docker.com/engine/install/ubuntu/
+                    (b) https://docs.docker.com/engine/install/linux-postinstall/
