@@ -1,12 +1,15 @@
 def merge_sort(arr):
     if len(arr)>1:
+        # 1) Divide into small subproblems
         mid = len(arr)//2
         L = arr[:mid]
         R = arr[mid:]
 
+        # 2) Conquer each subproblem Recursively
         merge_sort(L)
         merge_sort(R)
 
+        # 3) Merge routine    
         i = 0
         j = 0
         k = 0
