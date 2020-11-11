@@ -17,10 +17,11 @@ def insertion_sort(input_array, mode):
                 input_array[j+1] = input_array[j]
                 j = j-1
             input_array[j+1] = key      
-    
-    # return input_array
 
 def merge_sort(input_array):
+    """
+    Given an Array as input, perform Merge Sort on the given array
+    """
     if len(input_array)>1:
         # 1) Divide into small subproblems
         mid = len(input_array)//2
