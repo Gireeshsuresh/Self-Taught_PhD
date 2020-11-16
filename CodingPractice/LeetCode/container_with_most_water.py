@@ -7,9 +7,9 @@ class Solution:
         max_area = 0
         local_area = 0
         
-        while start != end: 
+        while (start != end): 
             # area = max(area, min(height[start], height[end]) * (end - start))         
-            if height[start] < height[end]:
+            if height[start] <= height[end]:
                 local_area = height[start] * (end - start)
                 start += 1
             else: 
