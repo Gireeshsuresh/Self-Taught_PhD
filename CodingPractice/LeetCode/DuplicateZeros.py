@@ -29,13 +29,9 @@ class Solution:
         """
         Do not return anything, modify arr in-place instead.
         """
-        
-        i = 0
-        while i < len(arr):
-            if arr[i] == 0:
-                arr.pop()
-                arr.insert(i+1, 0)
-                i += 2
-            else:
-                i += 1
-                continue
+        ans = ''
+        for item in arr:
+            ans += str(item)
+            if item == 0: ans += '0'
+        for i in range(len(arr)):
+            arr[i] = ans[i]
