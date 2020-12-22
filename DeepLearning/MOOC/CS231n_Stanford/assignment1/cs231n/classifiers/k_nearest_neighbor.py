@@ -100,7 +100,9 @@ class KNearestNeighbor(object):
             # Do not use np.linalg.norm().                                        #
             #######################################################################
             # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
-
+            diff = (X[i]-self.X_train)**2
+            summation = np.sum(diff, axis=1)
+            dists[i] = np.sqrt(summation)
             pass
 
             # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
@@ -131,7 +133,18 @@ class KNearestNeighbor(object):
         #########################################################################
         # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
-        pass
+        # note: L2 (Frobenius) norm of vector x, ||x|| = sqrt(x^2)
+        #       If x = a - b, then ||a - b|| = (a - b)^2 = a^2 - 2*a*b + b^2
+        #       Therefore, ||A - B|| = A^2 - 2*A*B + B^2
+        #       A: (M, D), B: (N, D)
+        #       Since np.square does element-wise multiplication, 
+        #       matrix^2 has the same dims as matrix
+        #       A^2: (M, D), A*B': (N, 1)x(1, M), (B^2)': (1, N)
+        
+        test_square = np.sum(np.square(X), axis = 1).reshape(num_test, 1)
+        train_square = np.sum(np.square(self.X_train), axis = 1).reshape(1, num_train)
+        
+        dists = np.sqrt(test_square + train_square - 2 * np.dot(X, self.X_train.T))
 
         # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
         return dists
