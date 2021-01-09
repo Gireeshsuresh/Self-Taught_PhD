@@ -5,16 +5,13 @@ class Solution:
         for idx,num in enumerate(nums):
             print(idx, num)
         
-        ret
-
-
-
+        return out
 
 
 
 if __name__ == "__main__":
     mySolution = Solution()
-
+    
     nums = [10,2,5,3]
     target = 13
 
