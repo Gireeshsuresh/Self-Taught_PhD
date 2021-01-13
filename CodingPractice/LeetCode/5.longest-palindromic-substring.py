@@ -57,7 +57,41 @@
 
 # @lc code=start
 class Solution:
+    def _string_reverse(self, s: str) -> str:
+        return s[::-1] 
+    
+    def is_pallindrome(self, src:str) -> bool: 
+        if src == self._string_reverse(src):
+            return True
+        else:
+            return False
+    def max_dict_val(self, p:dict) -> str:
+        max_str = list(p.keys())[list(p.values()).index(max(p.values()))]
+        return max_str
+
     def longestPalindrome(self, s: str) -> str:
-        
+        p_dict = {}
+        s_len = len(s)
+        start = 0
+        end = s_len
+        max_len = 0
+        for i in range(s_len ):
+            for j in range (s_len-1, -1, -1):
+                x = s[start+i : end - j + i]
+                if self.is_pallindrome(x):
+                    if max_len < len(x):
+                        max_len = len(x)
+                        p_dict[x] = len(x)
+        # print(p_dict)
+
+        return self.max_dict_val(p_dict)
+
+if __name__ == "__main__":
+    mySolution = Solution()
+
+    input_str = 'a'
+    out = mySolution.longestPalindrome(input_str)
+    print("Output : {}".format(out))
+       
 # @lc code=end
 
