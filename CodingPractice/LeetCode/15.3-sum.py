@@ -63,32 +63,53 @@ from typing import List
 
 # @lc code=start
 class Solution:
+    def twoSum(self, numbers: List[int], target: int) -> List[List[int]]:
+        """ Two sum to find all unique pairs that add up to a target number, given a sorted array as input """
+        output = []
+        left, right = 0, len(numbers)-1
+        
+        while left < right:
+            actual_sum = numbers[left] + numbers[right]
+            if actual_sum == target:
+                # Check if pair already exists to avoid duplicates
+                if [numbers[left], numbers[right]] not in output:
+                    output.append([numbers[left], numbers[right]])
+                left += 1
+                right -= 1
+                # Skip duplicates
+                while left < right and numbers[left] == numbers[left-1]:
+                    left += 1
+                while left < right and numbers[right] == numbers[right+1]:
+                    right -= 1
+            elif actual_sum > target:
+                right -= 1
+            else:
+                left += 1
+        return output
+    
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         nums.sort()
-        output = []
-
-        for i in range(len(nums) - 2):
-            if i > 0 and nums[i] == nums[i - 1]:
-                continue
-            left_ptr, right_ptr = i + 1, len(nums) - 1
-            while left_ptr < right_ptr:
-                sum = nums[i] + nums[left_ptr] + nums[right_ptr]
-                if sum == 0:
-                    output.append([nums[i], nums[left_ptr], nums[right_ptr]])
-                    while left_ptr < right_ptr and nums[left_ptr] == nums[left_ptr + 1]:
-                        left_ptr += 1
-                    while left_ptr < right_ptr and nums[right_ptr] == nums[right_ptr - 1]:
-                        right_ptr -= 1
-                    left_ptr += 1
-                    right_ptr -= 1
-                elif sum < 0:
-                    left_ptr += 1
-                else:
-                    right_ptr -= 1
-        return output
+        result = []
         
+        for i in range(len(nums)-2):
+            # Skip duplicates to avoid duplicate triplets
+            if i > 0 and nums[i] == nums[i-1]:
+                continue
+                
+            # Find pairs that sum to -nums[i]
+            # a + b + c = 0 ==> b+c = (-a)
+            target = -nums[i] 
+            pairs = self.twoSum(nums[i+1:], target)
+            
+            # Add current number to each pair to form triplets
+            for pair in pairs:
+                result.append([nums[i]] + pair)
+                
+        return result
+
 # @lc code=end
 
 s = Solution()
-input = [-1,0,1,0]
-print(s.threeSum(input))
+numbers = [-1,0,1,2,-1,-4]
+# print(s.twoSum(numbers, 0))
+print(s.threeSum(numbers))
