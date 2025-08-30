@@ -10,22 +10,15 @@
 
 >
 >
+> A Doctor of Philosophy (PhD), as defined by `Wikipedia`, involves producing original research that pushes the boundaries of knowledge, typically in the form of a thesis or dissertation, and defending this work before experts in the field. 
 >
-> Doctor of Philosophy(PhD), as per `Wikipedia` “ are usually required to produce original research that expands the boundaries of knowledge, normally in the form of a thesis or dissertation, and
-> defend their work against experts in the field ”. 
-> 
-> My drive to do a PhD (rather Self Taught PhD) is mainly to expand my technical knowledge base where in I could study things I didnt know [ (or) rather needed to brush up certian things...] and
-> to  further hone my skillset. I believe in Applied Research more so than theoritical approach, primarily because of the personal satisfaction you get on seeing things work in real than on paper.
-> Unlike some people, my intentions are to attain the proper etiquette associated wuth the usage of the subject and the professional ethics of the scholarly society rather than having a **"Dr."** as
-> title and a certificate to back that.`[That's just my thought]`. Hence the ***Self-Taught PhD***.
+> My motivation for pursuing a PhD—albeit a self-taught one—stems from a deep desire to expand my technical expertise, revisit foundational concepts, and refine my skillset. I am particularly drawn to applied research, as it offers the unique satisfaction of seeing ideas come to life in practical applications rather than remaining confined to theoretical constructs. For me, this journey is not about acquiring the title of **"Dr."** or a formal certificate; it is about embracing the discipline, rigor, and ethics of scholarly inquiry. This is the essence of my ***Self-Taught PhD***.
 >
->    ` Afterall who else can be a better person to judge/please,  if not your own self ?? `
-> 
-> The Aim, moving forward is to put myself into a rigorous schedule/timeline within which I would like to understand and make meaningful use (through projects) of my learnings and further deepen
-> my  focus on the subject of Robotics.For the critic's reading this, Yes, I am not like a conventional PhD candidate, but once I am done with this, Knowledge expectation is to be on par with them. 
-> 
-> "Thesis Defense" equivalent here might be to publish my work in Conferences, Journals and maybe take advice from the Opensource community and Scholars out in thre wide world, and what is best
-> possible from a student who is not attending a University in a professional setting.
+> `After all, who better to challenge and inspire you than yourself?`
+>
+> My goal is to adopt a structured and disciplined approach to learning, with a focus on Robotics. Through this journey, I aim to translate my knowledge into meaningful projects, deepen my understanding of the subject, and achieve a level of expertise comparable to that of traditional PhD candidates. 
+>
+> While I may not follow the conventional path, my "thesis defense" will take the form of publishing my work in conferences and journals, seeking feedback from the open-source community, and engaging with scholars worldwide. This endeavor is my commitment to lifelong learning and contributing to the broader field of knowledge.
 
 </details>
 
