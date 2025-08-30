@@ -24,7 +24,7 @@ A model is prepared through a training process in which it is required to make p
 <b>Example Algorithms include</b> : Logistic Regression and Back Propagation in Neural Networks.
 
 <p align="center">
-  <img src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2013/11/Supervised-Learning-Algorithms.png" />
+  <img src="Resources/SupervisedLearningAlgorithms.png" />
 </p>
 
 ### 2. Unsupervised Learning
@@ -38,7 +38,7 @@ A model is prepared by deducing structures present in the input data. This may b
 <b>Example algorithms include</b> : the Apriori algorithm and K-Means.
 
 <p align="center">
-  <img src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2013/11/Unsupervised-Learning-Algorithms.png" />
+  <img src="Resources/Unsupervised-Learning-Algorithms.png" />
 </p>
 
 ### 3. Semi-Supervised Learning
@@ -52,7 +52,7 @@ There is a desired prediction problem but the model must learn the structures to
 <b>Example algorithms</b> are extensions to other flexible methods that make assumptions about how to model the unlabeled data.
 
 <p align="center">
-  <img src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2013/11/Semi-supervised-Learning-Algorithms.png" />
+  <img src="Resources/Semi-supervised-Learning-Algorithms.png" />
 </p>
 
 
@@ -79,7 +79,7 @@ The most popular regression algorithms are:
 * Locally Estimated Scatterplot Smoothing (LOESS)
 
 <p align="center">
-  <img src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2013/11/Regression-Algorithms.png" />
+  <img src="Resources/Regression-Algorithms.png" />
 </p>
 
 ### 2. Instance-based Algorithms
@@ -97,7 +97,7 @@ The most popular instance-based algorithms are:
 * Support Vector Machines (SVM)
 
 <p align="center">
-  <img src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2013/11/Instance-based-Algorithms.png" />
+  <img src="Resources/Instance-based-Algorithms.png" />
 </p>
 
 ### 3. Regularization Algorithms
@@ -114,7 +114,7 @@ The most popular regularization algorithms are:
 * Least-Angle Regression (LARS)    
 
 <p align="center">
-  <img src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2013/11/Regularization-Algorithms.png" />
+  <img src="Resources/Regularization-Algorithms.png" />
 </p>
 
 ### 4. Decision Tree Algorithms
@@ -134,7 +134,7 @@ The most popular decision tree algorithms are:
 * Conditional Decision Trees
 
 <p align="center">
-  <img src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2013/11/Decision-Tree-Algorithms.png" />
+  <img src="Resources/Decision-Tree-Algorithms.png" />
 </p>
 
 ### 5. Bayesian Algorithms
@@ -151,7 +151,7 @@ The most popular Bayesian algorithms are:
 * Bayesian Network (BN)
 
 <p align="center">
-  <img src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2013/11/Bayesian-Algorithms.png" />
+  <img src="Resources/Bayesian-Algorithms.png" />
 </p>
 
 ### 6. Clustering Algorithms
@@ -168,7 +168,7 @@ The most popular clustering algorithms are:
 * Hierarchical Clustering
 
 <p align="center">
-  <img src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2013/11/Clustering-Algorithms.png" />
+  <img src="Resources/Clustering-Algorithms.png" />
 </p>
 
 ### 7. Association Rule Learning Algorithms
@@ -183,7 +183,7 @@ The most popular association rule learning algorithms are:
 * [Eclat algorithm](https://www.geeksforgeeks.org/ml-eclat-algorithm/)
 
 <p align="center">
-  <img src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2013/11/Assoication-Rule-Learning-Algorithms.png" />
+  <img src="Resources/Assoication-Rule-Learning-Algorithms.png" />
 </p>
 
 ### 8. Artificial Neural Network Algorithms
@@ -204,7 +204,7 @@ The most popular artificial neural network algorithms are:
 * Radial Basis Function Network ([RBFN](https://mccormickml.com/2013/08/15/radial-basis-function-network-rbfn-tutorial/))
 
 <p align="center">
-  <img src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2013/11/Artificial-Neural-Network-Algorithms.png" />
+  <img src="Resources/Artificial-Neural-Network-Algorithms.png" />
 </p>
 
 ### 9. Deep Learning Algorithms
@@ -223,7 +223,7 @@ The most popular deep learning algorithms are:
 * Deep Belief Networks ([DBN](https://medium.com/@icecreamlabs/deep-belief-networks-all-you-need-to-know-68aa9a71cc53))
 
 <p align="center">
-  <img src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2013/11/Deep-Learning-Algorithms.png" />
+  <img src="Resources/Deep-Learning-Algorithms.png" />
 </p>
 
 ### 10. Dimensionality Reduction Algorithms
@@ -244,7 +244,7 @@ This can be useful to visualize dimensional data or to simplify data which can t
 * Flexible Discriminant Analysis (FDA)
 
 <p align="center">
-  <img src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2013/11/Dimensional-Reduction-Algorithms.png" />
+  <img src="Resources/Dimensional-Reduction-Algorithms.png" />
 </p>
 
 ### 11. Ensemble Algorithms
@@ -263,7 +263,7 @@ Much effort is put into what types of weak learners to combine and the ways in w
 * Random Forest
 
 <p align="center">
-  <img src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2013/11/Ensemble-Algorithms.png" />
+  <img src="Resources/Ensemble-Algorithms.png" />
 </p>
 
 ***
