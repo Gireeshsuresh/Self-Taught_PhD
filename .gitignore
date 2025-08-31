@@ -609,3 +609,41 @@ compile_commands.json
 *_qmlcache.qrc
 
 
+#==========================================================#
+#================== ML and AI Model Files =================#
+#==========================================================#
+
+# Common model file formats
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+*.pth
+*.pt
+*.tflite
+*.onnx
+*.joblib
+*.pkl
+*.sav
+*.model
+
+# TensorFlow SavedModel directories
+saved_model/
+saved_model.pb
+
+# Keras model directories
+keras_model.h5
+
+# PyTorch Lightning checkpoints
+lightning_logs/
+checkpoints/
+
+# MLflow artifacts
+mlruns/
+
+# FastAI export
+export.pkl
+
+# HuggingFace Transformers cache
+*.cache/
+*.bin
