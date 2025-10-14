@@ -60,13 +60,22 @@
 #
 
 # @lc code=start
+from typing import List
 class Solution:
-    def containsDuplicate(self, nums: List[int]) -> bool:
+    def containsDuplicate1(self, nums: List[int]) -> bool:
         dict = {}
         for num in nums:
             if num in dict:
                 return True
             dict[num] = 1
+        return False
+
+    def containsDuplicate(self, nums:List[int]) -> bool:
+        visited = set()
+        for num in nums:
+            if num in visited:
+                return True
+            visited.add(num)            
         return False
 # @lc code=end
 
