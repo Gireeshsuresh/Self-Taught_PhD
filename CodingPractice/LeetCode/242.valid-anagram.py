@@ -49,7 +49,7 @@
 
 # @lc code=start
 class Solution:
-    def isAnagram(self, s: str, t: str) -> bool:
+    def isAnagram1(self, s: str, t: str) -> bool:
         # x=sorted(s)
         # y=sorted(t)
         # if x==y:
@@ -72,8 +72,17 @@ class Solution:
                 return False
         return True
             
-
-
+    def isAnagram(self, s: str, t:str) -> bool:
+        if len(s) != len(t):
+            return False
+        d_s, d_t = {}, {}
+        for i, j in zip(s, t):
+            d_s[i] = d_s.get(i, 0) + 1
+            d_t[j] = d_t.get(j, 0) + 1
         
+        return d_s == d_t
+
+
 # @lc code=end
+
 
